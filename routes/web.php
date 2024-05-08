@@ -18,5 +18,5 @@ Route::get('/', function () {
     return view('pages.body');
 })->name('body');
 Route::get('comic', function () {
-    return view('pages.comicsOne');
+    return view('pages.comicsCollect');
 })->name('comicsCollect');
